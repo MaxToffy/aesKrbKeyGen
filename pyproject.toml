@@ -1,0 +1,11 @@
+[project]
+name = "aesKrbKeyGen"
+version = "1.0.0"
+description = "Generate NTLM hashes and AES128/256 Kerberos keys for an AD account using a plaintext password"
+requires-python = ">=3.11"
+dependencies = [
+    "pycryptodome>=3.23.0",
+]
+
+[project.scripts]
+aesKrbKeyGen = "aesKrbKeyGen:main"
