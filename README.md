@@ -13,5 +13,4 @@ options:
   -computer COMPUTER  FQDN hostname (ex: dc01.cerbere.local)
   -pass PASSWORD      Valid cleartext or hex account password
   -i I                Iterations to perform for PBKDF2
-
 ```
